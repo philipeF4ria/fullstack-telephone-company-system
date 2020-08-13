@@ -1,0 +1,75 @@
+{
+	"locale": [
+		{
+			"idLocale": "locale1",
+			"codeLocale": "011"
+		},
+		{
+			"idLocale": "locale2",
+			"codeLocale": "016"
+		},
+		{
+			"iidLocaled": "locale3",
+			"codeLocale": "017"
+		},
+		{
+			"idLocale": "locale4",
+			"codeLocale": "018"
+		}
+	],
+	"plans": [
+		{
+			"idPlan": "plan1",
+			"namePlan": "FaleMais 30",
+			"limitTimePlan": 30
+		},
+		{
+			"idPlan": "plan2",
+			"namePlan": "FaleMais 60",
+			"limitTimePlan": 60
+		},
+		{
+			"idPlan": "plan3",
+			"namePlan": "FaleMais 120",
+			"limitTimePlan": 120
+		}
+	],
+	"possibleCalls": [
+		{
+			"idPossibleCalls": "possibleCalls1",
+			"origin": "011",
+			"destiny": "016",
+			"price": 1.9
+		},
+		{
+			"idPossibleCalls": "possibleCalls2",
+			"origin": "016",
+			"destiny": "011",
+			"price": 2.9
+		},
+		{
+			"idPossibleCalls": "possibleCalls3",
+			"origin": "011",
+			"destiny": "017",
+			"price": 1.7
+		},
+		{
+			"idPossibleCalls": "possibleCalls4",
+			"origin": "017",
+			"destiny": "011",
+			"price": 2.7
+		},
+		{
+			"idPossibleCalls": "possibleCalls5",
+			"origin": "011",
+			"destiny": "018",
+			"price": 0.9
+		},
+		{
+			"idPossibleCalls": "possibleCalls6",
+			"origin": "018",
+			"destiny": "011",
+			"price": 1.9
+		}
+	]
+}
